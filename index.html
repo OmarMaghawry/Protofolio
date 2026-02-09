@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omar Amin | AI / Machine Learning Engineer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Scroll progress bar -->
+  <div id="scroll-progress" class="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Grain overlay -->
+  <div class="grain-overlay" aria-hidden="true"></div>
+
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <a href="#home" class="navbar-brand">Omar Amin</a>
+      <nav class="navbar-nav">
+        <a href="#home" class="nav-link" data-section="home">Home</a>
+        <a href="#about" class="nav-link" data-section="about">About</a>
+        <a href="#education" class="nav-link" data-section="education">Education</a>
+        <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+        <a href="#experience" class="nav-link" data-section="experience">Experience</a>
+        <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+        <a href="#certificates" class="nav-link" data-section="certificates">Certificates</a>
+        <a href="#feedback" class="nav-link" data-section="feedback">Feedback</a>
+        <a href="#terminal" class="nav-link" data-section="terminal">AI Terminal</a>
+        <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+      </nav>
+      <div class="navbar-actions">
+        <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+          <span class="theme-icon theme-icon-dark">🌙</span>
+          <span class="theme-icon theme-icon-light">☀️</span>
+        </button>
+        <button type="button" class="navbar-toggle" id="navbar-toggle" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+    <div class="navbar-menu" id="navbar-menu">
+      <a href="#home" class="nav-link-mobile" data-section="home">Home</a>
+      <a href="#about" class="nav-link-mobile" data-section="about">About</a>
+      <a href="#education" class="nav-link-mobile" data-section="education">Education</a>
+      <a href="#skills" class="nav-link-mobile" data-section="skills">Skills</a>
+      <a href="#experience" class="nav-link-mobile" data-section="experience">Experience</a>
+      <a href="#projects" class="nav-link-mobile" data-section="projects">Projects</a>
+      <a href="#certificates" class="nav-link-mobile" data-section="certificates">Certificates</a>
+      <a href="#feedback" class="nav-link-mobile" data-section="feedback">Feedback</a>
+      <a href="#terminal" class="nav-link-mobile" data-section="terminal">AI Terminal</a>
+      <a href="#contact" class="nav-link-mobile" data-section="contact">Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Home / Hero -->
+    <section id="home" class="section hero">
+      <div class="hero-bg">
+        <div class="hero-gradient-mesh"></div>
+        <div class="hero-blob hero-blob-1"></div>
+        <div class="hero-blob hero-blob-2"></div>
+        <div class="hero-blob hero-blob-3"></div>
+        <div class="hero-vignette"></div>
+      </div>
+      <div id="particles-container" class="particles-container" aria-hidden="true"></div>
+      <div class="hero-content">
+        <div class="hero-left">
+          <p class="hero-greeting">Hi, I'm Omar Amin</p>
+          <h1 class="hero-title">Omar Amin</h1>
+          <div class="hero-typing-wrap">
+            <span class="hero-typing" id="hero-typing"></span>
+            <span class="hero-caret" id="hero-caret">|</span>
+          </div>
+          <p class="hero-tagline">Transforming data into intelligent solutions</p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="assets/Omar_Amin_CV.pdf" class="btn btn-secondary" download>Download CV</a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="hero-profile-card">
+            <div class="hero-profile-ring"></div>
+            <div class="hero-profile-img-wrap">
+              <img src="asset/Images/profile.jpg" alt="Omar Amin" class="hero-profile-img" loading="eager">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section divider -->
+    <div class="section-divider"></div>
+
+    <!-- About -->
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="section-title" data-reveal>About</h2>
+        <div class="about-content" data-reveal>
+          <p class="about-text">
+            I am a motivated AI/ML Engineer with a strong foundation in Data Analysis and Data Engineering.
+            I focus on transforming raw data into meaningful insights, building machine learning models,
+            and developing data-driven solutions using Python, SQL, and modern machine learning frameworks.
+            I am continuously learning and working on hands-on projects to strengthen my practical skills
+            and prepare for real-world AI challenges.
+          </p>
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-value" data-target="15">0</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value" data-target="10">0</span>
+              <span class="stat-label">Certificates</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value" data-target="500">0</span>
+              <span class="stat-label">Training Hours</span>
+            </div>
+          </div>
+          <div class="about-tech-row">
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">SQL</span>
+            <span class="tech-badge">TensorFlow</span>
+            <span class="tech-badge">Scikit-learn</span>
+            <span class="tech-badge">Pandas</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Education -->
+    <section id="education" class="section education">
+      <div class="container">
+        <h2 class="section-title" data-reveal>Education</h2>
+        <div class="education-timeline" data-reveal>
+          <div class="education-card glass-card">
+            <h3>National Telecommunication Institute (NTI)</h3>
+            <p class="education-program">AI & Data Science Training Program</p>
+            <p class="education-dates">2024 – 2025</p>
+            <ul class="education-bullets">
+              <li><span class="check-icon"></span> Structured curriculum in AI & Data Science</li>
+              <li><span class="check-icon"></span> Hands-on projects and labs</li>
+              <li><span class="check-icon"></span> Industry-aligned training</li>
+              <li><span class="check-icon"></span> Certificate upon completion</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Skills -->
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2 class="section-title" data-reveal>Skills</h2>
+        <div class="skills-filters" data-reveal>
+          <button type="button" class="skill-chip active" data-filter="all">All</button>
+          <button type="button" class="skill-chip" data-filter="da">Data Analysis</button>
+          <button type="button" class="skill-chip" data-filter="ml">Machine Learning</button>
+          <button type="button" class="skill-chip" data-filter="de">Data Engineering</button>
+          <button type="button" class="skill-chip" data-filter="tools">Tools</button>
+        </div>
+        <div class="skills-grid" id="skills-grid">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Experience -->
+    <section id="experience" class="section experience">
+      <div class="container">
+        <h2 class="section-title" data-reveal>Experience</h2>
+        <div class="experience-timeline" data-reveal>
+          <div class="experience-node">
+            <div class="experience-glow"></div>
+            <div class="experience-content">
+              <h3>AI & Data Science Trainee</h3>
+              <p class="experience-org">National Telecommunication Institute (NTI)</p>
+              <ul class="experience-bullets">
+                <li>Applied ML and data science in structured training</li>
+                <li>Built end-to-end data pipelines and models</li>
+                <li>Collaborated on real-world style projects</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Projects -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2 class="section-title" data-reveal>Projects</h2>
+        <div class="projects-tabs" data-reveal>
+          <button type="button" class="project-tab active" data-tab="all">All</button>
+          <button type="button" class="project-tab" data-tab="ml">ML</button>
+          <button type="button" class="project-tab" data-tab="data">Data</button>
+          <button type="button" class="project-tab" data-tab="nlp">NLP</button>
+        </div>
+        <div class="projects-grid" id="projects-grid">
+          <!-- Skeleton then real cards from JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Project modal -->
+    <div class="modal" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="project-modal-title" hidden>
+      <div class="modal-backdrop" data-close="project-modal"></div>
+      <div class="modal-content glass-card">
+        <button type="button" class="modal-close" data-close="project-modal" aria-label="Close">&times;</button>
+        <div class="modal-body">
+          <img class="modal-project-img" id="modal-project-img" src="" alt="">
+          <h3 id="project-modal-title" class="modal-title"></h3>
+          <p id="modal-project-desc" class="modal-desc"></p>
+          <div id="modal-project-tech" class="modal-tech"></div>
+          <div class="modal-actions">
+            <a id="modal-project-github" href="#" class="btn btn-primary" target="_blank" rel="noopener">GitHub</a>
+            <a id="modal-project-live" href="#" class="btn btn-secondary" target="_blank" rel="noopener" style="display:none">Live</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-divider"></div>
+
+    <!-- Certificates -->
+    <section id="certificates" class="section certificates">
+      <div class="container">
+        <h2 class="section-title" data-reveal>Certificates</h2>
+        <div class="certificates-filters" data-reveal>
+          <button type="button" class="cert-chip active" data-filter="all">All</button>
+          <button type="button" class="cert-chip" data-filter="ml">ML</button>
+          <button type="button" class="cert-chip" data-filter="data">Data</button>
+          <button type="button" class="cert-chip" data-filter="python">Python</button>
+        </div>
+        <div class="certificates-grid" id="certificates-grid">
+          <!-- Skeleton then real from JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificate lightbox -->
+    <div class="lightbox" id="cert-lightbox" role="dialog" aria-modal="true" hidden>
+      <div class="lightbox-backdrop" data-close="cert-lightbox"></div>
+      <button type="button" class="lightbox-prev" id="lightbox-prev" aria-label="Previous">&lsaquo;</button>
+      <button type="button" class="lightbox-next" id="lightbox-next" aria-label="Next">&rsaquo;</button>
+      <div class="lightbox-content">
+        <img id="lightbox-img" src="" alt="Certificate">
+      </div>
+      <button type="button" class="lightbox-close" data-close="cert-lightbox" aria-label="Close">&times;</button>
+    </div>
+
+    <div class="section-divider"></div>
+
+    <!-- Feedback -->
+    <section id="feedback" class="section feedback">
+      <div class="container">
+        <h2 class="section-title" data-reveal>Feedback</h2>
+        <div class="feedback-controls" data-reveal>
+          <div class="feedback-sort">
+            <label for="feedback-sort">Sort:</label>
+            <select id="feedback-sort">
+              <option value="newest">Newest</option>
+              <option value="most-liked">Most Liked</option>
+              <option value="oldest">Oldest</option>
+            </select>
+          </div>
+          <button type="button" class="btn btn-primary" id="feedback-add-btn">Add Feedback</button>
+        </div>
+        <div class="feedback-form-wrap" id="feedback-form-wrap" hidden>
+          <form class="feedback-form glass-card" id="feedback-form">
+            <h3>Add your feedback</h3>
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="text" name="role" placeholder="Your role">
+            <textarea name="comment" placeholder="Your feedback" rows="4" required></textarea>
+            <div class="feedback-form-actions">
+              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="button" class="btn btn-secondary" id="feedback-form-cancel">Cancel</button>
+            </div>
+          </form>
+        </div>
+        <div class="feedback-grid" id="feedback-grid">
+          <!-- Skeleton then cards from JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Toast container -->
+    <div id="toast-container" class="toast-container" aria-live="polite"></div>
+
+    <div class="section-divider"></div>
+
+    <!-- AI Terminal -->
+    <section id="terminal" class="section terminal-section">
+      <div class="container">
+        <h2 class="section-title" data-reveal>AI Terminal</h2>
+        <div class="terminal-wrap glass-card" data-reveal>
+          <div class="terminal-header">
+            <span class="terminal-dot"></span>
+            <span class="terminal-dot"></span>
+            <span class="terminal-dot"></span>
+            <span class="terminal-title">AI Lab — Omar Amin</span>
+          </div>
+          <div class="terminal-body">
+            <div class="terminal-output" id="terminal-output"></div>
+            <div class="terminal-line">
+              <span class="terminal-prompt">&gt;</span>
+              <span class="terminal-command" id="terminal-command"></span>
+              <span class="terminal-cursor" id="terminal-cursor">_</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section-title" data-reveal>Contact</h2>
+        <div class="contact-content" data-reveal>
+          <form class="contact-form glass-card" id="contact-form">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+            <textarea name="message" placeholder="Your message" rows="5" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+          <div class="contact-links">
+            <a href="https://wa.me/yournumber" class="contact-link btn btn-secondary" target="_blank" rel="noopener">WhatsApp</a>
+            <a href="#" class="contact-link btn btn-secondary" target="_blank" rel="noopener">GitHub</a>
+            <a href="#" class="contact-link btn btn-secondary" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="assets/Omar_Amin_CV.pdf" class="contact-link btn btn-primary" download>Download CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Omar Amin. AI / ML Engineer.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
